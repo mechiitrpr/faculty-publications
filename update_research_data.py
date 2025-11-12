@@ -22,7 +22,7 @@ from urllib.parse import urlparse, parse_qs
 EXCEL_FILENAME = "Google Scholar and ORCID Data.xlsx"  # Excel file name
 SEARCH_SUBFOLDERS = True  # search recursively for Excel
 OUTPUT_DIR = "output"
-PAPERS_PER_FACULTY = 3  # change to 2 if you only want top 2 papers
+PAPERS_PER_FACULTY = 5  # change to 2 if you only want top 2 papers
 
 # -------------------------
 # FIND EXCEL FILE
@@ -153,3 +153,4 @@ def main():
 # -------------------------
 if __name__ == "__main__":
     main()
+
